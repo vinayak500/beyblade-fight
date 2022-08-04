@@ -1,0 +1,64 @@
+#outer-div{
+    height:100vh;
+    background:linear-gradient(to right , rgb(58, 58, 227) , red);
+}
+
+
+body{
+    margin:0px;
+
+}
+
+
+@keyframes rotate{
+    from{
+         transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.img2{
+    margin-top: 30px;
+    height:300px;
+    width:300px;
+}
+
+
+.img{
+    position:absolute;
+    height:175px;
+    width:175px;
+    top:50%;
+    left:30%;
+     animation: rotate 0.0001s linear infinite;
+     /* animation-iteration-count: infinite; */
+     transform-origin: 50% 50%;
+}
+
+
+
+.img3{
+    position:absolute;
+    height:150px;
+    width:150px;
+    top:50%;
+    left:60%;
+     animation: rotate 0.0001s linear infinite;
+     /* animation-iteration-count: infinite; */
+     transform-origin: 50% 50%;
+}
+
+
+
+#tourn{
+    height:200px;
+}
